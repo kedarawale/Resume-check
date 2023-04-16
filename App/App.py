@@ -27,6 +27,7 @@ from streamlit_tags import st_tags
 from PIL import Image
 # pre stored data for prediction purposes
 from Courses import ds_course,web_course,android_course,ios_course,uiux_course,resume_videos,interview_videos
+from nltk.corpus import stopwords
 import nltk
 nltk.download()
 
